@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "face emotion",
+    "description": "SocStop",
+    "version" : "1.0.0",
+    "icons": {"128":"icons.png"},
+    "browser_action":{
+        "default_icon":"icons.png",
+        "default_popup":"popup.html"
+    },
+    "content_scripts": [ {
+        "js": [ "script.js"],
+        "matches": [ "<all_urls>"]
+    }],
+    "permissions":["tabs",
+        "<all_urls>",
+   
+        "storage"
+        ]
+    }
