@@ -1,4 +1,4 @@
-# Hacktoberfest2k20
+# Hacktoberfest2021
 Repository for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) contributions.
 
 ## Contributing
